@@ -9,6 +9,8 @@
 Tree *create_root(int num)
 {
     Tree *r = (Tree *)malloc(sizeof(Tree));
+    if (r == NULL)
+        return NULL;
     r->number = num;
     r->left_child = NULL;
     r->right_child = NULL;
