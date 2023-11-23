@@ -18,4 +18,6 @@ struct tree
     struct tree *right_child;
     struct tree *left_child;
 };
+Tree *create_root(int);
+Tree *insert_child(Tree *, int);
 #endif
