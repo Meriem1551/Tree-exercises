@@ -30,7 +30,9 @@ int main(void)
         infixe(root);
     else if (choice == 'p')
         prefixe(root);
-    else
+    else if (choice == 'o')
         postfixe(root);
+    else
+        printf("Enter a valid letter");
     return 0;
 }
