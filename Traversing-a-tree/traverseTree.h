@@ -6,5 +6,6 @@
 #include "../how-to-create-a-tree/tree.h"
 
 void infixe(Tree *);
-
+void prefixe(Tree *);
+void postfixe(Tree *);
 #endif
