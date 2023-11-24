@@ -9,6 +9,8 @@ int main(void)
 {
     int num_nodes, data;
     Tree *root;
+    char choice;
+
     printf("Enter number of nodes ");
     scanf("%d", &num_nodes);
     printf("What's the number for root ");
@@ -20,5 +22,15 @@ int main(void)
         scanf("%d", &data);
         root = insert_child(root, data);
     }
-    infixe(root);
+
+    printf("Choose your favorite traverse i: infixe, p: prefixe, o: postfixe ");
+    scanf("%c", &choice);
+
+    if (choice == 'i')
+        infixe(root);
+    else if (choice == 'p')
+        prefixe(root);
+    else
+        postfixe(root);
+    return 0;
 }
