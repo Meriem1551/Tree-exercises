@@ -24,7 +24,7 @@ int main(void)
     }
 
     printf("Choose your favorite traverse i: infixe, p: prefixe, o: postfixe ");
-    scanf("%c", &choice);
+    scanf(" %c", &choice);
 
     if (choice == 'i')
         infixe(root);
