@@ -2,7 +2,7 @@
 
 /**
  * prefixe - traverses a tree: ROOT LEFT RIGHT
- * @r: pointer to a tree
+ * @r: pointer to a tree (root)
  * Return: void
  */
 
