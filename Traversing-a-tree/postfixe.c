@@ -2,7 +2,7 @@
 
 /**
  * postfixe - traverse a tree: LEFT RIGHT ROOT
- * @r: pointer to a tree
+ * @r: pointer to a tree (root)
  * Return: void
  */
 
