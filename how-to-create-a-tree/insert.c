@@ -9,8 +9,9 @@
 
 Tree *insert_child(Tree *r, int n)
 {
+
     if (r == NULL)
-        return NULL;
+        return create_root(n);
     if (n < r->number)
         r->left_child = insert_child(r->left_child, n);
     else
