@@ -7,4 +7,6 @@
 #include <stdbool.h>
 
 bool isExiste(Tree *, int);
+
+void print_message(char *);
 #endif
