@@ -27,9 +27,8 @@ int main(void)
     scanf("%d", &tresor);
 
     if (isExiste(root, tresor))
-        print_message("yes the number %d existe", tresor);
+        print_message("yes, the number existe");
     else
-        print_message("Sorry we don't find this number ");
-
+        print_message("Sorry we don't find this number");
     return 0;
 }
