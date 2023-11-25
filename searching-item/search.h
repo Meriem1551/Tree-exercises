@@ -4,5 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../how-to-create-a-tree/tree.h"
+#include <stdbool.h>
 
+bool isExiste(Tree *, int);
 #endif
