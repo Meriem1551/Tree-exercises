@@ -6,12 +6,10 @@
  * Return: void
  */
 
-void infixe(Tree *r)
+int infixe(Tree *r)
 {
     if (r != NULL)
     {
-        infixe(r->left_child);
-        printf("%d \n", r->number);
-        infixe(r->right_child);
+        return r->number + infixe(r->left_child) + infixe(r->right_child);
     }
 }

@@ -27,7 +27,10 @@ int main(void)
     scanf(" %c", &choice);
 
     if (choice == 'i')
-        infixe(root);
+    {
+        int sum = infixe(root);
+        printf("\nThe sum is :%d\n", sum);
+    }
     else if (choice == 'p')
         prefixe(root);
     else if (choice == 'o')
