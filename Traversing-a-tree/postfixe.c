@@ -8,7 +8,10 @@
 
 void postfixe(Tree *r)
 {
-    postfixe(r->left_child);
-    postfixe(r->right_child);
-    printf("%d \n", r->number);
+    if (r != NULL)
+    {
+        postfixe(r->left_child);
+        postfixe(r->right_child);
+        printf("%d \n", r->number);
+    }
 }
